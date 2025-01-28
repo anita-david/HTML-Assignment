@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="media.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body><nav class="navbar">
+    <ul>
+      <li><a href="../Assignment 1(ALTSOE0242474)/index.html">Home</a></li>
+      <li><a href="../Assignment 1(ALTSOE0242474)/form.html">SignUp</a></li>
+      <li><a href="table.html">Table</a></li>
+      <li><a href="media.html">Media</a></li>
+    </ul>
+  </nav>
+
+    <header>
+      <h1>Welcome to My Space</h1>
+      <p>A glimpse into who I am and what I do.</p>
+    </header>
+
+    <main>
+      <section class="about-me">
+        <h2>About Me</h2>
+        <picture>
+          <source
+            srcset="./assets/picture/anita1.jpeg"
+            media="(min-width:1024px)"
+          />
+          <source
+            srcset="./assets/picture/anita2.jpeg"
+            media="(min-width:768px)"
+          />
+          <img
+            src="./assets/picture/WhatsApp Image 2025-01-04 at 6.57.17 AM.jpeg"
+            alt="My Portrait"
+          />
+        </picture>
+        <p>
+          Hi, I'm Anita David, a budding front-end engineer passionate about
+          building intuitive web experiences.
+        </p>
+      </section>
+
+      <section class="video-intro">
+        <h2>My Favorite Video</h2>
+        <video controls>
+          <source
+            src="./assets/video/Chimamanda Ngozi Adichie_ The danger of a single story _ TED.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+        <p>
+          This video stands out in it's story telling style and relevance over
+          time.
+        </p>
+      </section>
+
+      <section class="audio-message">
+        <h2>My Favorite Song</h2>
+        <audio controls>
+          <source src="./assets/audio/WavinFlag.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <p>Listen to my favorite song: Wavin Flag by K'NAAN</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Anita David. All rights reserved.</p>
+      <a href="#top" class="back-to-top">Back to Top</a>
+    </footer>
+  </body>
+</html>
