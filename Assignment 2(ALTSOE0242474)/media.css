@@ -46,7 +46,7 @@ header {
     padding: 1.5em 0;
     background-color: #0073e6;
     color: white;
-    margin-top: 100px;
+    margin-top: 110px;
 }
 
 main {
@@ -83,14 +83,14 @@ section h2 {
 footer {
     text-align: center;
     padding: 1em 0;
-    background-color: #222;
+    background-color: var(--primary-color);
     color: white;
 }
 
 footer .back-to-top {
     display: inline-block;
     margin-top: 1em;
-    color: #0073e6;
+    color: white;
     text-decoration: none;
     transition: text-decoration 0.3s ease;
 }
